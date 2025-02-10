@@ -1,8 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import React from "react";
 import { FaTools } from "react-icons/fa";
 import { FaGears } from "react-icons/fa6";
 import DescubreServiciosButtoms from "../buttons/descubreServicios/page";

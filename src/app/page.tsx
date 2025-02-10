@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import HeaderComponent from "@/components/Header/page";
 import FooterComponent from "@/components/Footer/page";
 import ContactoAhoraButtoms from "@/components/buttons/contactoAhora/page";

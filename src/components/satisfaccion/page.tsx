@@ -1,7 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
-import gsap from "gsap";
+import React from "react";
 import svg1 from "../../../public/svg1.svg";
 import svg2 from "../../../public/svg2.svg";
 import svg3 from "../../../public/svg3.svg";
