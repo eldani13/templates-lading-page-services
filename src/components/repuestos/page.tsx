@@ -1,4 +1,3 @@
-import { FaTools } from "react-icons/fa";
 import { BiCloudUpload } from "react-icons/bi";
 import { IoMdLock } from "react-icons/io";
 import { FaDatabase } from "react-icons/fa";
