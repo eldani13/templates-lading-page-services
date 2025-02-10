@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import svg1 from "../../../public/svg1.svg";
 import svg2 from "../../../public/svg2.svg";
 import svg3 from "../../../public/svg3.svg";
@@ -27,20 +28,20 @@ export default function SatisfaccionComponent() {
                   
                   className="absolute -top-10 -right-9 z-[-1]"
                 >
-                  <img src={svg3.src} alt="" />
+                  <Image src={svg3.src} width={100} height={100} alt="" />
                 </span>
 
                 <span
                  
                   className="absolute -right-10 top-[90px] z-[-1]"
                 >
-                  <img src={svg2.src} alt="" />
+                  <Image src={svg2.src} width={40} height={40} alt="" />
                 </span>
                 <span
                  
                   className="absolute -left-7 -bottom-7 z-[-1]"
                 >
-                  <img src={svg1.src} alt="" />
+                  <Image src={svg1.src} width={100} height={100} alt="" />
                 </span>
               </div>
             </div>

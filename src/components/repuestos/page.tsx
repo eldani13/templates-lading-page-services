@@ -2,6 +2,7 @@ import { FaTools } from "react-icons/fa";
 import { BiCloudUpload } from "react-icons/bi";
 import { IoMdLock } from "react-icons/io";
 import { FaDatabase } from "react-icons/fa";
+import Image from "next/image";
 import imagen6 from "../../../public/imagen6.jpeg";
 
 export default function RespuestoComponent() {
@@ -62,9 +63,11 @@ export default function RespuestoComponent() {
       </div>
 
       <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
-        <img
+        <Image
           src={imagen6.src}
           alt="Técnico reparando lavadora"
+          width={800}
+          height={400}
           className="rounded-lg shadow-lg w-auto h-[70vh] object-cover"
         />
       </div>

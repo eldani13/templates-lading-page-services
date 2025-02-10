@@ -4,6 +4,7 @@ import React from "react";
 import { FaTools } from "react-icons/fa";
 import { FaGears } from "react-icons/fa6";
 import DescubreServiciosButtoms from "../buttons/descubreServicios/page";
+import Image from "next/image";
 import imagen1 from "../../../public/imagen1.webp";
 
 
@@ -44,9 +45,11 @@ export default function ElegirnosComponent() {
       </div>
 
       <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
-        <img
+        <Image
           src={imagen1.src}
           alt="Técnico reparando lavadora"
+          width={800}
+          height={400}
           className="rounded-lg shadow-lg w-auto h-[70vh] object-cover"
         />
       </div>

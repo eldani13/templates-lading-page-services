@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import imagen2 from "../../../public/imagen2.webp";
 import imagen3 from "../../../public/imagen3.webp";
 import imagen4 from "../../../public/imagen4.webp";
@@ -42,25 +43,31 @@ export default function GarantiaComponent() {
           }}
         >
           <div className="w-full flex-shrink-0 flex items-center justify-center">
-            <img
+            <Image
               src={imagen2.src}
               alt="Imagen 2"
+              width={800}
+              height={400}
               className="w-full h-full object-contain"
             />
           </div>
 
           <div className="w-full flex-shrink-0 flex items-center justify-center">
-            <img
+            <Image
               src={imagen3.src}
               alt="Imagen 3"
+              width={800}
+              height={400}
               className="w-full h-full object-contain"
             />
           </div>
 
           <div className="w-full flex-shrink-0 flex items-center justify-center">
-            <img
+            <Image
               src={imagen4.src}
               alt="Imagen 4"
+              width={800}
+              height={400}
               className="w-full h-full object-contain"
             />
           </div>

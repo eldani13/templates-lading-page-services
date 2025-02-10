@@ -1,6 +1,7 @@
 import React from "react";
 import ContactoButtoms from "../buttons/contacto/page";
 import UnaseButtoms from "../buttons/unase/page";
+import Image from "next/image";
 import logo from "../../../public/logo.png"
 
 export default function HeaderComponent() {
@@ -15,7 +16,7 @@ export default function HeaderComponent() {
       <header className="flex justify-around items-center p-2 w-2/3 bg-white rounded-full border border-[#ccc] shadow-md">
       <div>
 
-        <img src={logo.src} alt="Logo" className="h-12 w-12 " />
+        <Image  src={logo.src} alt="Logo" width={48} height={48} />
       </div>
       <div>
         

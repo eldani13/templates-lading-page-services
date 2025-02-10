@@ -1,4 +1,6 @@
 import { FaCheckCircle, FaLock, FaStar } from "react-icons/fa";
+import Image from "next/image";
+import perfil2 from "../../../public/perfil2.jpg"
 
 export default function PrecioComponent() {
   return (
@@ -23,9 +25,11 @@ export default function PrecioComponent() {
         </div>
 
         <div className="flex items-center justify-center lg:justify-start mt-4">
-          <img
-            src="https://randomuser.me/api/portraits/men/32.jpg"
+          <Image
+            src={perfil2.src}
             alt="Cliente"
+            width={48}
+            height={48}
             className="w-12 h-12 rounded-full mr-3"
           />
           <div>

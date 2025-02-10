@@ -1,9 +1,6 @@
 import {
   FaHeadset,
   FaChartLine,
-  FaCheckCircle,
-  FaBox,
-  FaShieldAlt,
   FaIdBadge,
 } from "react-icons/fa";
 import { BsFillPersonCheckFill } from "react-icons/bs";

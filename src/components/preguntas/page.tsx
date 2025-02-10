@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
+import Image from "next/image";
 import imagen5 from "../../../public/imagen5.webp";
 
 const faqs = [
@@ -30,9 +31,11 @@ export default function PreguntasComponent() {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between px-6 py-12 md:px-16 md:py-24 bg-white">
       <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
-        <img
+        <Image
           src={imagen5.src}
           alt="Técnico reparando lavadora"
+          width={800}
+          height={400}
           className="rounded-lg shadow-lg w-auto h-[70vh] object-cover"
         />
       </div>
