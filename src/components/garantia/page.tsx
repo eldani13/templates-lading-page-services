@@ -19,8 +19,8 @@ export default function GarantiaComponent() {
   }, []);
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between bg-white p-8 lg:p-16">
-      <div className="max-w-[570px] ml-44">
+    <div className="flex flex-col lg:flex-row items-center justify-between bg-white  md:p-8 lg:p-16">
+      <div className="max-w-[570px] ml-5 md:ml-44">
         <h3 className="text-text text-lg font-[500] mb-10">Satisfacción</h3>
         <h2 className="text-3xl md:text-5xl font-[500] text-gray-800 mb-4">
           ¡Garantía de Satisfacción!
@@ -35,7 +35,7 @@ export default function GarantiaComponent() {
         <DescubreServiciosButtoms />
       </div>
 
-      <div className="relative w-full lg:w-1/2 h-[40vh] bg-slate-800 rounded-lg overflow-hidden">
+      <div className="relative w-full lg:w-1/2 h-[40vh] bg-slate-800 rounded-lg overflow-hidden hidden md:block">
         <div
           className="flex transition-transform duration-1000 ease-in-out"
           style={{

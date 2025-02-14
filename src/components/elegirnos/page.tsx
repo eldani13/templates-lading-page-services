@@ -7,37 +7,38 @@ import DescubreServiciosButtoms from "../buttons/descubreServicios/page";
 import Image from "next/image";
 import imagen1 from "../../../public/imagen1.webp";
 
-
 export default function ElegirnosComponent() {
-
   return (
-    <section
-      className="flex flex-col md:flex-row items-center justify-between px-6 py-12 md:px-16 md:py-24 bg-white"
-    >
-      <div className="md:w-1/2 text-center md:text-left ml-52">
-        <div className="flex flex-col gap-1 mb-16">
-          <h3 className="text-text text-lg font-[500] mb-10">Tu Mejor Opción</h3>
-          <h2 className="text-3xl md:text-5xl font-[500] text-gray-800 mb-4">
+    <section className="flex flex-col md:flex-row items-center justify-between px-6 py-12 md:px-16 md:py-24 bg-white w-full max-w-7xl mx-auto">
+      <div className="md:w-1/2 text-center md:text-left md:ml-10">
+        <div className="flex flex-col gap-1 mb-10 md:mb-16">
+          <h3 className="text-text text-start text-lg font-[500] mb-4 md:mb-10">
+            Tu Mejor Opción
+          </h3>
+          <h2 className="text-3xl text-start md:text-5xl font-[500] text-gray-800 mb-4">
             ¿Por Qué Elegirnos?
           </h2>
-          <p className="text-gray-600 mb-6 text-lg">
-            Ofrecemos un servicio técnico especializado con garantía y <br />
+          <p className="text-gray-600 text-start mb-6 text-lg">
+            Ofrecemos un servicio técnico especializado con garantía y{" "}
+            <br className="hidden md:block" />
             atención personalizada.
           </p>
         </div>
-        <hr className="mb-10 w-full" />
+        <hr className="mb-6 md:mb-10 w-full" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-          <div className="flex items-center gap-4">
-            <FaTools size={20} className="text-black" />
-            <p className="text-black font-bold">
-              Técnicos altamente <br /> capacitados listos para <br />
+          <div className="flex items-start gap-4">
+            <FaTools size={24} className="text-black" />
+            <p className="text-black font-bold text-base md:text-sm text-justify">
+              Técnicos altamente <br className="hidden md:block" /> capacitados
+              listos para <br className="hidden md:block" /> 
               ayudarte.
             </p>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-start gap-4">
             <FaGears size={30} className="text-black" />
-            <p className="text-black font-bold">
-              Repuestos originales para <br /> asegurar la calidad.
+            <p className="text-black font-bold text-base md:text-sm text-justify">
+              Repuestos originales para <br className="hidden md:block" />{" "}
+              asegurar la calidad.
             </p>
           </div>
         </div>
@@ -48,9 +49,9 @@ export default function ElegirnosComponent() {
         <Image
           src={imagen1.src}
           alt="Técnico reparando lavadora"
-          width={800}
+          width={600}
           height={400}
-          className="rounded-lg shadow-lg w-auto h-[70vh] object-cover"
+          className="rounded-lg shadow-lg w-full max-w-md md:max-w-lg object-cover"
         />
       </div>
     </section>

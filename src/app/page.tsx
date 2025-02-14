@@ -26,7 +26,7 @@ const Home: React.FC = () => {
 
         <div className="pb-10">
           <span
-            className="text-text border border-text rounded-full p-3 text-sm"
+            className="text-text border border-text rounded-full p-3 text-sm hidden md:block"
           >
             ¡Bienvenidos a Reparaciones Express! Tu solución confiable para
             electrodomésticos.
@@ -37,13 +37,13 @@ const Home: React.FC = () => {
           Reparación Rápida y Confiable para tu <br /> Hogar
         </h1>
 
-        <p  className="text-gray-600 text-lg mb-8">
+        <p  className="text-gray-600 text-sm md:text-lg max-w-72 md:max-w-full mb-8">
           Descubre cómo nuestros servicios personalizados pueden devolver la
           vida a tus lavadoras y neveras.
         </p>
 
         <div className="flex gap-4">
-          <ContactoAhoraButtoms />
+          <ContactoAhoraButtoms /> 
           <ConoceMasButtoms />
         </div>
       </main>

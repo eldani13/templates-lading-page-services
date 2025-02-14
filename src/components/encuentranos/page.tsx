@@ -2,8 +2,8 @@ import { FaLocationDot } from "react-icons/fa6";
 
 export default function EncuentranosComponent() {
   return (
-    <section className="flex items-center justify-center py-12">
-      <div className="max-w-md">
+    <section className="flex flex-col items-center justify-center py-12 text-center md:flex-row md:text-left">
+      <div className="max-w-md mb-6 md:mb-0">
         <h2 className="text-4xl md:text-5xl text-gray-800 mb-4">
           Encuéntranos Aquí
         </h2>
@@ -12,7 +12,7 @@ export default function EncuentranosComponent() {
           personalizada.
         </p>
 
-        <div className="mt-4 flex items-center gap-2">
+        <div className="mt-4 flex flex-col items-center gap-2 md:flex-row">
           <span className="text-text">
             <FaLocationDot size={20} />
           </span>
@@ -28,7 +28,7 @@ export default function EncuentranosComponent() {
       </div>
 
       {/* Mapa */}
-      <div className="w-96 h-64 rounded-lg overflow-hidden shadow-lg">
+      <div className="w-[90%] h-64 rounded-lg overflow-hidden shadow-lg md:w-96">
         <iframe
           width="100%"
           height="100%"

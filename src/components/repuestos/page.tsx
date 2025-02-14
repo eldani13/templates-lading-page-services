@@ -7,7 +7,7 @@ import imagen6 from "../../../public/imagen6.jpeg";
 export default function RespuestoComponent() {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between px-6 py-12 md:px-16 md:py-24 bg-white">
-      <div className="md:w-1/2 text-center md:text-left ml-52">
+      <div className="md:w-1/2 text-center md:text-left md:ml-52">
         <div className="flex flex-col gap-1 mb-16">
           <h3 className="text-text text-lg font-[500] mb-10">
             Repuestos Originales

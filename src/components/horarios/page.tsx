@@ -1,7 +1,7 @@
 export default function HorariosComponent() {
   return (
     <section className="bg-secundary py-12 px-6">
-      <div className="max-w-4xl mx-auto flex">
+      <div className="max-w-4xl mx-auto flex flex-col items-center text-center md:flex-row md:text-left">
         <div className="flex flex-col justify-center">
           <h2 className="text-4xl md:text-5xl text-gray-800 mb-4">
             Nuestros Horarios
@@ -12,27 +12,27 @@ export default function HorariosComponent() {
           </p>
         </div>
 
-        <div className="mt-6 flex flex-col md:flex-row gap-6">
-          <div className="p-6 flex-1 text-center flex flex-col justify-center items-center">
-            <p className="text-4xl md:text-5xl text-gray-800 mb-4">9:00 - <br /> 18:00</p>
+        <div className="mt-6 flex flex-col gap-6 w-full md:flex-row md:w-auto md:items-center">
+          <div className="p-6 text-center flex flex-col justify-center items-center ">
+            <p className="text-4xl md:text-5xl text-gray-800 mb-4">9:00 - 18:00</p>
             <p className="text-text font-semibold">Lunes a Viernes</p>
           </div>
 
           <div className="hidden md:block w-[2px] bg-gray-300"></div>
 
-          <div className="p-6 flex-1 text-center flex flex-col justify-center items-center">
+          <div className="p-6 text-center flex flex-col justify-center items-center  ">
             <p className="text-4xl md:text-5xl text-gray-800 mb-4">10:00 - 14:00</p>
             <p className="text-text font-semibold">Sábados</p>
           </div>
         </div>
       </div>
 
-      <div className="max-w-4xl mx-auto mt-36">
-        <h2 className="text-4xl md:text-5xl text-gray-800 mb-4 text-center">
+      <div className="max-w-4xl mx-auto mt-36 text-center">
+        <h2 className="text-4xl md:text-5xl text-gray-800 mb-4">
           Preguntas Frecuentes
         </h2>
 
-        <div className="mt-14 space-y-6">
+        <div className="mt-14 space-y-6 text-left">
           <div className="border-b border-gray-300 pb-4">
             <h3 className="text-lg md:text-xl font-semibold text-gray-800">
               01. ¿Qué servicios ofrece Reparaciones Express?

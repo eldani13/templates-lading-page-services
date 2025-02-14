@@ -49,7 +49,7 @@ export default function SatisfaccionComponent() {
 
           <div className="w-full lg:w-1/2 xl:w-6/12 px-4">
             <div  className="max-w-[570px] mb-12 lg:mb-0">
-              <h3 className="text-text text-lg font-[500] mb-10">
+              <h3 className="text-text text-lg font-[500] mb-10 mt-20 md:mt-0">
                 Contactanos
               </h3>
               <h2 className="text-3xl md:text-5xl font-[500] text-gray-800 mb-4">

@@ -1,7 +1,7 @@
 export default function ContactoUbicacionComponent() {
   return (
     <section className="max-w-6xl mx-auto px-6 lg:px-16 py-12">
-      <div className="mb-12 flex">
+      <div className="mb-12 flex flex-col items-center text-center md:flex-row md:text-left">
         <div>
           <h2 className="text-4xl md:text-6xl text-gray-800 mb-4">
             Mantente en Contacto
@@ -12,7 +12,7 @@ export default function ContactoUbicacionComponent() {
           </p>
         </div>
 
-        <div className="flex gap-6 mt-6">
+        <div className="flex flex-col gap-6 mt-6 md:flex-row">
           <div className="bg-secundary p-6 rounded-lg ">
             <h3 className="text-xl md:text-2xl text-gray-800">
               Asistencia Técnica
@@ -43,7 +43,7 @@ export default function ContactoUbicacionComponent() {
 
       <hr className="border-gray-300 my-8" />
 
-      <div className="mb-12 flex justify-between">
+      <div className="mb-12 flex flex-col items-center text-center md:flex-row md:justify-between md:text-left">
         <div>
           <h2 className="text-4xl md:text-6xl text-gray-800 mb-4">
             Nuestras <br /> Ubicaciones
@@ -53,7 +53,7 @@ export default function ContactoUbicacionComponent() {
           </p>
         </div>
 
-        <div className="flex gap-6 mt-6">
+        <div className="flex flex-col gap-6 mt-6 md:flex-row">
           <div className="bg-secundary p-6 rounded-lg w-72 h-40 flex flex-col justify-center">
             <h3 className="text-xl md:text-2xl text-gray-800 text-center">
               Soledad
