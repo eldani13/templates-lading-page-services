@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./../globals.css";
 
 export const metadata: Metadata = {
-  title: "Contacto | Reparación Blanco Tech",
+  title: "Contacto | Blanco Tech",
   description:
     "Contáctanos para reparar tu lavadora, nevera o aire acondicionado en Barranquilla. Servicio técnico rápido, confiable y garantizado.",
   keywords: [
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "soporte técnico electrodomésticos",
   ],
   openGraph: {
-    title: "Contacto | Reparación Blanco Tech",
+    title: "Contacto | Blanco Tech",
     description:
       "Agenda tu servicio técnico con expertos en reparación de electrodomésticos. ¡Atención rápida y garantizada en Barranquilla!",
     url: "https://blancotech.co/contacto",
