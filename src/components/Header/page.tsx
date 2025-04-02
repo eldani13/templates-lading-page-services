@@ -6,7 +6,6 @@ import UnaseButtoms from "../buttons/unase/page";
 import Image from "next/image";
 import { RiMenu5Fill } from "react-icons/ri";
 import { IoMdClose } from "react-icons/io";
-import logo from "../../../public/logo.png";
 
 export default function HeaderComponent() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +22,7 @@ export default function HeaderComponent() {
     <div className="fixed top-0 left-0 w-full z-50 flex justify-center items-center pt-5">
       <header className="relative flex justify-between items-center p-4 w-2/3 bg-white rounded-full border border-[#ccc] shadow-md">
         <div>
-          <Image src={logo.src} alt="Logo" width={48} height={48} />
+          <Image src="/logo1.png" alt="Logo" width={48} height={48} />
         </div>
         <nav className="hidden md:flex gap-4">
           {navegaciones.map((nav, index) => (

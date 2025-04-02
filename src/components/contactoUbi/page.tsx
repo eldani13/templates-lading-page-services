@@ -13,7 +13,7 @@ export default function ContactoUbicacionComponent() {
         </div>
 
         <div className="flex flex-col gap-6 mt-6 md:flex-row">
-          <div className="bg-secundary p-6 rounded-lg ">
+          <div className="bg-secundary p-6 rounded-lg w-72 h-40 flex flex-col justify-center">
             <h3 className="text-xl md:text-2xl text-gray-800">
               Asistencia Técnica
             </h3>
@@ -21,12 +21,12 @@ export default function ContactoUbicacionComponent() {
               href="mailto:soporte@reparacionesexpress.com"
               className="text-text font-medium"
             >
-              soporte@reparacionesexpress.com
+              ll-luis123@hotmail.com
             </a>
-            <p className="text-gray-700">+57 123 456 789</p>
+            <p className="text-gray-700">+57 300 3350138</p>
           </div>
 
-          <div className="bg-secundary p-6 rounded-lg ">
+          <div className="bg-secundary p-6 rounded-lg w-72 h-40 flex flex-col justify-center">
             <h3 className="text-xl md:text-2xl text-gray-800">
               Consultas Generales
             </h3>
@@ -34,9 +34,9 @@ export default function ContactoUbicacionComponent() {
               href="mailto:info@reparacionesexpress.com"
               className="text-text font-medium"
             >
-              info@reparacionesexpress.com
+              ll-luis123@hotmail.com
             </a>
-            <p className="text-gray-700">+57 987 654 321</p>
+            <p className="text-gray-700">+57 300 3350138</p>
           </div>
         </div>
       </div>

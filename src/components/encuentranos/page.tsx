@@ -8,7 +8,7 @@ export default function EncuentranosComponent() {
           Encuéntranos Aquí
         </h2>
         <p className="text-gray-600 mt-2">
-          Visítanos en nuestra oficina en Madrid para una consulta
+          Visítanos en nuestra oficina en Barranquilla para una consulta
           personalizada.
         </p>
 
@@ -17,17 +17,16 @@ export default function EncuentranosComponent() {
             <FaLocationDot size={20} />
           </span>
           <a
-            href="https://www.google.com/maps/place/Reparaciones+Express+Madrid"
+            href="https://www.google.com/maps/place/Barranquilla,+Atl%C3%A1ntico,+Colombia/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-text font-medium hover:underline"
           >
-            Reparaciones Express Madrid
+            Reparaciones Express Barranquilla - Blanco Tech
           </a>
         </div>
       </div>
 
-      {/* Mapa */}
       <div className="w-[90%] h-64 rounded-lg overflow-hidden shadow-lg md:w-96">
         <iframe
           width="100%"
@@ -37,7 +36,7 @@ export default function EncuentranosComponent() {
           referrerPolicy="no-referrer-when-downgrade"
           loading="lazy"
           allowFullScreen
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3032.144219526967!2d-3.656006284610932!3d40.44598377936225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42262dfcd6f9f3%3A0x1e4b3c6b60bb5e0e!2sReparaciones%20Express%20Madrid!5e0!3m2!1sen!2ses!4v1679615123456!5m2!1sen!2ses"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4813981558613!2d-74.80097238553105!3d10.987654292181334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d9b11a6b0b9%3A0x1d3f4d99f3eaa6e!2sBarranquilla%2C%20Atl%C3%A1ntico%2C%20Colombia!5e0!3m2!1ses!2sco!4v1648600123456!5m2!1ses!2sco"
         ></iframe>
       </div>
     </section>

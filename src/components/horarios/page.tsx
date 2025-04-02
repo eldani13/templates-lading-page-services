@@ -8,20 +8,20 @@ export default function HorariosComponent() {
           </h2>
           <p className="text-gray-700 mt-2">
             Estamos disponibles para ayudarte de lunes a viernes, de 
-            9:00 a 18:00.
+            8:00 a 16:00.
           </p>
         </div>
 
         <div className="mt-6 flex flex-col gap-6 w-full md:flex-row md:w-auto md:items-center">
           <div className="p-6 text-center flex flex-col justify-center items-center ">
-            <p className="text-4xl md:text-5xl text-gray-800 mb-4">9:00 - 18:00</p>
+            <p className="text-4xl md:text-5xl text-gray-800 mb-4">8:00 - 16:00</p>
             <p className="text-text font-semibold">Lunes a Viernes</p>
           </div>
 
           <div className="hidden md:block w-[2px] bg-gray-300"></div>
 
           <div className="p-6 text-center flex flex-col justify-center items-center  ">
-            <p className="text-4xl md:text-5xl text-gray-800 mb-4">10:00 - 14:00</p>
+            <p className="text-4xl md:text-5xl text-gray-800 mb-4">09:00 - 13:00</p>
             <p className="text-text font-semibold">Sábados</p>
           </div>
         </div>
