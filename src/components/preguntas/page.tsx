@@ -7,17 +7,19 @@ import imagen5 from "../../../public/imagen5.webp";
 
 const faqs = [
   {
-    question: "¿Cómo puedo solicitar una reparación?",
+    question: "¿Cómo puedo solicitar una reparación de lavadora o nevera?",
     answer:
-      "Es muy sencillo, contáctanos a través de nuestro sitio web o llámanos.",
+      "Puedes contactarnos fácilmente por WhatsApp, llamada o a través del formulario en nuestro sitio web. Atendemos en toda Barranquilla y alrededores.",
   },
   {
-    question: "¿Qué tipos de electrodomésticos reparan?",
-    answer: "Nos especializamos en lavadoras y neveras de todas las marcas.",
+    question: "¿Qué electrodomésticos reparan y qué marcas atienden?",
+    answer:
+      "Nos especializamos en la reparación de lavadoras, neveras y aires acondicionados. Trabajamos con marcas como Samsung, LG, Whirlpool, Mabe, Haceb, Challenger, entre otras.",
   },
   {
-    question: "¿Ofrecen garantía en sus servicios?",
-    answer: "Sí, todas nuestras reparaciones están garantizadas.",
+    question: "¿Ofrecen garantía en sus servicios técnicos?",
+    answer:
+      "Sí, todas nuestras reparaciones cuentan con garantía por escrito y repuestos originales. Tu tranquilidad está asegurada con Blanco Tech.",
   },
 ];
 
@@ -33,7 +35,7 @@ export default function PreguntasComponent() {
       <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
         <Image
           src={imagen5.src}
-          alt="Técnico reparando lavadora"
+          alt="Servicio técnico reparando lavadora en Barranquilla"
           width={800}
           height={400}
           className="rounded-lg shadow-lg w-auto h-[70vh] object-cover"

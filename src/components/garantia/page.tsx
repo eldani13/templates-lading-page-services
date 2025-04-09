@@ -26,11 +26,18 @@ export default function GarantiaComponent() {
           ¡Garantía de Satisfacción!
         </h2>
         <p className="text-gray-600 mb-6 text-lg">
-          Confía en nosotros para reparar tus electrodomésticos con eficacia.
+          En <strong>Blanco Tech</strong>, nos enorgullece ofrecer un{" "}
+          <strong>servicio técnico especializado en electrodomésticos</strong>{" "}
+          que garantiza resultados duraderos y confiables.
         </p>
         <p className="text-gray-600 mb-6 text-lg">
-          Nuestro compromiso es ofrecerte un servicio de calidad que supere tus
-          expectativas.
+          Ya sea que necesites la{" "}
+          <strong>
+            reparación de tu lavadora, nevera o aire acondicionado
+          </strong>
+          , te aseguramos atención rápida, <strong>repuestos originales</strong>{" "}
+          y un trato amable que supera tus expectativas. ¡Tu satisfacción es
+          nuestra prioridad!
         </p>
         <DescubreServiciosButtoms />
       </div>

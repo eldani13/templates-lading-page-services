@@ -2,11 +2,19 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Reparaciónes | Blanco Tech",
+  title: "Inicio - Blanco Tech",
   description:
-    "Reparaciones Express ofrece servicio técnico especializado en reparación de lavadoras, neveras, aires acondicionados y más. Atención rápida y garantizada en Barranquilla.",
+    "Servicio técnico especializado en reparación de electrodomésticos en Barranquilla: lavadoras, neveras, aires acondicionados. Atención rápida, repuestos originales y garantía.",
   keywords: [
+    "reparación de electrodomésticos Barranquilla",
     "reparación de electrodomésticos",
+    "técnico de lavadoras",
+    "técnico de neveras",
+    "reparación de aires acondicionados",
+    "técnico a domicilio",
+    "lavadoras Samsung LG Mabe Challenger",
+    "reparaciones garantizadas Barranquilla",
+    "reparación técnica urgente",
     "servicio técnico",
     "reparación de lavadoras",
     "reparación de neveras",
@@ -51,6 +59,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
+        <link rel="icon" href="/favicon.ico" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Reparaciones Express" />
         <meta name="geo.region" content="CO-ATL" />

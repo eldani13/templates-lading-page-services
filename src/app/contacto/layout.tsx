@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./../globals.css";
 
 export const metadata: Metadata = {
-  title: "Contacto | Blanco Tech",
+  title: "Contacto - Blanco Tech",
   description:
     "Contáctanos para reparar tu lavadora, nevera o aire acondicionado en Barranquilla. Servicio técnico rápido, confiable y garantizado.",
   keywords: [
@@ -48,6 +48,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
+        <link rel="icon" href="/favicon.ico" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Reparaciones Express" />
         <meta name="geo.region" content="CO-ATL" />

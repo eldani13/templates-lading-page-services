@@ -15,14 +15,30 @@ export default function ElegirnosComponent() {
           <h3 className="text-text text-start text-lg font-[500] mb-4 md:mb-10">
             Tu Mejor Opción
           </h3>
-          <h2 className="text-3xl text-start md:text-5xl font-[500] text-gray-800 mb-4">
-            ¿Por Qué Elegirnos?
-          </h2>
-          <p className="text-gray-600 text-start mb-6 text-lg">
-            Ofrecemos un servicio técnico especializado con garantía y{" "}
-            <br className="hidden md:block" />
-            atención personalizada.
-          </p>
+          <section className="">
+            <h2 className="text-3xl text-start md:text-5xl font-[500] text-gray-800 mb-4">
+              ¿Por Qué Elegirnos?
+            </h2>
+            <p className="text-gray-600 text-start mb-6 text-lg">
+              En <strong>Blanco Tech</strong> ofrecemos un{" "}
+              <strong>servicio técnico especializado</strong> en la{" "}
+              <strong>
+                reparación de lavadoras, neveras y aires acondicionados
+              </strong>{" "}
+              en <strong>Barranquilla</strong>. Nuestros técnicos altamente
+              capacitados trabajan con <strong>repuestos originales</strong> y
+              ofrecen <strong>garantía por escrito</strong> en todos los
+              servicios.
+            </p>
+            <p className="text-gray-600 text-start text-lg">
+              Atendemos a domicilio en toda el área metropolitana. Contamos con
+              atención inmediata, diagnóstico preciso y precios competitivos. Si
+              necesitas un <strong>técnico de lavadoras</strong>,{" "}
+              <strong>reparación de neveras</strong> o{" "}
+              <strong>mantenimiento de aire acondicionado</strong>, ¡somos tu
+              mejor opción!
+            </p>
+          </section>
         </div>
         <hr className="mb-6 md:mb-10 w-full" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
@@ -30,7 +46,7 @@ export default function ElegirnosComponent() {
             <FaTools size={24} className="text-black" />
             <p className="text-black font-bold text-base md:text-sm text-justify">
               Técnicos altamente <br className="hidden md:block" /> capacitados
-              listos para <br className="hidden md:block" /> 
+              listos para <br className="hidden md:block" />
               ayudarte.
             </p>
           </div>

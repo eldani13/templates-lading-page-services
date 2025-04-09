@@ -23,12 +23,12 @@ export default function ContactoPage() {
 
         <div className="relative z-10 max-w-4xl">
           <h1 className="text-4xl md:text-6xl text-white mb-4">
-            ¡Bienvenido a <br /> Reparaciones Express!
+          Contacto | Servicio Técnico de Electrodomésticos en Barranquilla
           </h1>
           <p className="text-gray-300 text-lg mb-8">
-            Aquí encontrarás soluciones rápidas y efectivas para tus
-            electrodomésticos.
-            <br /> ¡Estamos listos para ayudarte!
+          Contáctanos para reparar <strong>lavadoras, neveras y aires acondicionados</strong> 
+  en <strong>Barranquilla</strong>. Nuestro equipo ofrece atención inmediata, servicio a domicilio 
+  y <strong>garantía en cada reparación</strong>. ¡Estamos listos para ayudarte hoy mismo!
           </p>
         </div>
 
@@ -36,7 +36,7 @@ export default function ContactoPage() {
           <div className="bg-white bg-opacity-5 border border-[#405c8a] backdrop-blur-md p-6 rounded-lg shadow-lg text-white text-left">
             <div className="flex items-center space-x-3">
               <FaTools className="text-2xl text-text" />
-              <h3 className="text-xl font-semibold">Reparaciones Rápidas</h3>
+              <h3 className="text-xl font-semibold">Reparación de Lavadoras y Neveras</h3>
             </div>
             <p className="mt-2 text-gray-300 text-base">
               Solucionamos problemas de lavadoras <br /> y neveras en un abrir y
@@ -47,7 +47,7 @@ export default function ContactoPage() {
           <div className="bg-white bg-opacity-5 border border-[#405c8a] backdrop-blur-md p-6 rounded-lg shadow-lg text-white text-left">
             <div className="flex items-center space-x-3">
               <FaUserCog className="text-2xl text-text" />
-              <h3 className="text-xl font-semibold">Servicio Personalizado</h3>
+              <h3 className="text-xl font-semibold">Atención Personalizada con Garantía</h3>
             </div>
             <p className="mt-2 text-gray-300 text-base">
               Atención adaptada a tus necesidades <br />
@@ -58,7 +58,7 @@ export default function ContactoPage() {
           <div className="bg-white bg-opacity-5 border border-[#405c8a] backdrop-blur-md p-6 rounded-lg shadow-lg text-white text-left">
             <div className="flex items-center space-x-3">
               <FaShieldAlt className="text-2xl text-text" />
-              <h3 className="text-xl font-semibold">Soporte Confiable</h3>
+              <h3 className="text-xl font-semibold">Soporte Técnico Confiable en Barranquilla</h3>
             </div>
             <p className="mt-2 text-gray-300 text-base">
               Estamos aquí para ayudarte en cada <br />
